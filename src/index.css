@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("background.jpeg");
+}
+
+.item {
+    background-color: #698eea;
+    border-radius: 2px;
+    color: white;
+    opacity: .9;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    vertical-align: bottom;
+    align-items: center;
+    display:inline-block;
+}
+
+
+.top-bar {
+  background-color: #a3bdff;
+  font-family: 'Hiragino Sans GB', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.list-elements {
+    font-family: 'Hiragino Sans GB', sans-serif;
+    padding-top: 10px;
+    display: flex;
+
+}
+
+
+

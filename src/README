@@ -1,0 +1,19 @@
+Link:
+
+How my interface realtes to user interface design principles:
+-I used css flexbox to arrange the elements in a grid format, making the site easy to view and read.
+Flexbox also makes the site responsive so users can view on different screen sizes with the site still being easily usable and accessible.
+-This layout is intuitive in that it matches how most American users scan quickly from left to right.
+-My site uses sans serif typeface for ease of readability. Text is also not overcrowded.
+-I chose a blue-ish/purplish color palette in which all colors compliment each other and do not contrast. There is enough color contrast between text and background elements that it's easy to read.
+-Clear and descriptive buttons make search and navigation easy to learn.
+
+How data is passed down through components:
+-The app.js is my top level class which creates all of the data (29 family member items with various properties). Its render function calls the FilteredList component which handles all of the filtering of items based on family, generation, and search states. Its render function calls the List component which either displays the filtered but unsorted items or calls the Sort component which sorts the list alphabetically then displays these items.
+
+
+How user interactions trigger changes in state of components:
+-When users select options in the two filtering drop down menus, they change the family state and/or the generation state which affect which items of the list get displayed. Only items that match both the family state and generation state will be presented. The sort state determines whether or not the items are sorted. Its default is unsorted. When users click the "Sort Alphabetically" button, they change the sort state to "sorted". Alternatively, when they click the "Restore" button, they change the state back to "unsorted". Typing in the search bar changes the search state and results in the displaying of items whose name propererty has letters matching with the search input.
+
+Sentence on high-level goal of app and why it might be valuable:
+My family is really large, so when new people enter the space, they often feel intimidated by the number of names they have to memorize, or confused by the relationships (who's child is this? who is whose brother? who is married to who? who lives where?). This app provides a way for newcomers (especially my cousins' new significant others) to study before attending large family events. They can see who is in which family, where a family lives, what generation each person is, etc. They can search for speficic people, and they can sort alphabetically.
