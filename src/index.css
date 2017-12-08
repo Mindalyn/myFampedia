@@ -18,6 +18,10 @@ body {
     display:inline-block;
 }
 
+.item:hover {
+  background-color:#87a6ff;
+}
+
 
 .top-bar {
   background-color: #a3bdff;
