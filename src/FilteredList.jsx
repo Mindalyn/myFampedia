@@ -13,8 +13,8 @@ class FilteredList extends Component {
             search: "",
             generation: "All",
             family: "All",
-            button1: "Generation",
-            button2: "Family",
+            button1: "All",
+            button2: "All",
             sort: "unsorted",
         };
     }
@@ -85,8 +85,8 @@ class FilteredList extends Component {
         this.setState({sort: "unsorted"})
         this.setState({'family': "All"})
         this.setState({'generation': "All"})
-        this.setState({'button1': "Generation"})
-        this.setState({'button2': "Family"})
+        this.setState({'button1': "All"})
+        this.setState({'button2': "All"})
     }
 
 
@@ -131,6 +131,7 @@ class FilteredList extends Component {
                               <MenuItem eventKey="Ng's of Concord">Ng's of Concord</MenuItem>
                               <MenuItem eventKey="Ng's of Cambridge">Ng's of Cambridge</MenuItem>
                               <MenuItem eventKey="Pao's of Palo Alto">Pao's of Palo Alto</MenuItem>
+                              <MenuItem eventKey="The Hall Family">The Hall Family</MenuItem>
                             </DropdownButton>
                         </div>
 

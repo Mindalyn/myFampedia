@@ -17,6 +17,8 @@ const myFamily = [
   {name: "Fanny Wong", generation: "Parent", family: "Ng's of Cambridge", image: require('./photos/Fanny.png')},
   {name: "Christina Ng", generation: "Parent", family: "Pao's of Palo Alto", image: require('./photos/Christina.png')},
   {name: "Frank Pao", generation: "Parent", family: "Pao's of Palo Alto", image: require('./photos/Frank.png')},
+  {name: "Lance Hall", generation: "Parent", family: "The Hall Family", image: require('./photos/Lance.png')},
+  {name: "Frances Hall", generation: "Parent", family: "The Hall Family", image: require('./photos/Fran.png')},
   {name: "Michelle Lee", generation: "Child", family: "Lee's of Malaysia", image: require('./photos/Michelle.png')},
   {name: "Kelley Ng", generation: "Child", family: "Ng's of Concord", image: require('./photos/Kelley.png')},
   {name: "Michael Lee", generation: "Child", family: "Lee's of Malaysia", image: require('./photos/Mike.png')},
@@ -32,6 +34,8 @@ const myFamily = [
   {name: "Jasmine Pao", generation: "Child", family: "Pao's of Palo Alto", image: require('./photos/Jasmine.png')},
   {name: "Grace Ng", generation: "Child", family: "Ng's of Cambridge", image: require('./photos/Grace.png')},
   {name: "Justin Ng", generation: "Child", family: "Ng's of San Diego", image: require('./photos/Justin.png')},
+  {name: "Emmie Hall", generation: "Child", family: "The Hall Family", image: require('./photos/Emmie.png')},
+
 ];
 
 
